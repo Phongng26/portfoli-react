@@ -12,20 +12,15 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Full-Stack Engineer & AI Specialist
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Full-stack Software Engineer with strong experience in AI integration, LLM-based systems, and modern web applications. Proven ability to design end-to-end pipelines for document processing, RAG systems, and AI-driven automation.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Fast learner, self-motivated, with a solid foundation in mathematics and statistics. Currently working at Rabiloo Co., Ltd, developing AI-powered solutions and scalable web systems.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -50,10 +45,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg">AI & LLM Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Designing and implementing AI-powered systems, RAG pipelines, and LLM integrations for various applications.
                   </p>
                 </div>
               </div>
@@ -64,10 +58,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Full-Stack Engineering</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Building end-to-end web applications with modern frontend and backend technologies.
                   </p>
                 </div>
               </div>
@@ -79,10 +72,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Cloud & DevOps</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Deploying and maintaining scalable systems on cloud platforms with CI/CD pipelines.
                   </p>
                 </div>
               </div>

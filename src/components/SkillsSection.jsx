@@ -2,29 +2,48 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
+  // Programming Languages
+  { name: "JavaScript", level: 90, category: "languages" },
+  { name: "TypeScript", level: 85, category: "languages" },
+  { name: "Python", level: 95, category: "languages" },
+  { name: "C++", level: 75, category: "languages" },
+  { name: "Bash", level: 80, category: "languages" },
+
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  { name: "React.js", level: 90, category: "frontend" },
+  { name: "Next.js", level: 85, category: "frontend" },
+  { name: "MUI", level: 80, category: "frontend" },
+  { name: "Tailwind CSS", level: 85, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  { name: "FastAPI", level: 90, category: "backend" },
+  { name: "Flask", level: 80, category: "backend" },
 
-  // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
+  // AI/ML
+  { name: "LLMs", level: 95, category: "ai" },
+  { name: "LangChain", level: 90, category: "ai" },
+  { name: "RAG", level: 90, category: "ai" },
+  { name: "Transformers", level: 85, category: "ai" },
+  { name: "PyTorch", level: 85, category: "ai" },
+  { name: "YOLO", level: 80, category: "ai" },
+  { name: "PaddleOCR", level: 75, category: "ai" },
+
+  // Databases
+  { name: "PostgreSQL", level: 85, category: "databases" },
+  { name: "MongoDB", level: 80, category: "databases" },
+  { name: "Redis", level: 75, category: "databases" },
+  { name: "FAISS", level: 80, category: "databases" },
+  { name: "Qdrant", level: 75, category: "databases" },
+
+  // Cloud & Tools
+  { name: "AWS", level: 85, category: "cloud" },
+  { name: "Docker", level: 90, category: "cloud" },
+  { name: "GitLab CI/CD", level: 80, category: "cloud" },
+  { name: "Git", level: 90, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "languages", "frontend", "backend", "ai", "databases", "cloud", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
